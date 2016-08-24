@@ -1,0 +1,26 @@
+{
+  "name": "scrixel-gameloop",
+  "version": "1.0.0",
+  "description": "A game loop for the Scrixel game engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logiclogue/scrixel-gameloop.git"
+  },
+  "keywords": [
+    "game",
+    "loop",
+    "engine",
+    "animation",
+    "loop"
+  ],
+  "author": "Jordan Lord",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/logiclogue/scrixel-gameloop/issues"
+  },
+  "homepage": "https://github.com/logiclogue/scrixel-gameloop#readme"
+}
