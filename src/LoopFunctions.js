@@ -1,4 +1,4 @@
-function Loop() {
+function LoopFunctions() {
     this.drawFunction = this._emptyFunction;
     this.updateFunction = this._emptyFunction;
 }
@@ -9,6 +9,6 @@ function Loop() {
 
     };
 
-}(Loop.prototype));
+}(LoopFunctions.prototype));
 
-module.exports = Loop;
+module.exports = LoopFunctions;

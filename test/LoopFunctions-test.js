@@ -1,12 +1,12 @@
 var assert = require('chai').assert;
-var Loop = require('../src/Loop');
+var LoopFunctions = require('../src/LoopFunctions');
 
 
-describe('Loop', function () {
+describe('LoopFunctions', function () {
     var loop;
 
     describe('#constructor()', function () {
-        loop = new Loop();
+        loop = new LoopFunctions();
 
         it('should set #drawFunction to an empty function', function () {
             assert.equal(typeof loop.drawFunction, 'function');
