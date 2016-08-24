@@ -17,7 +17,7 @@ describe('Looper', function () {
 
     describe('#constructor(LoopFunctions)', function () {
         it('should throw error if looper isn\'t passed', function () {
-            assert.throws(loopFunctions, ReferenceError);
+            assert.throws(Looper, ReferenceError);
         });
 
         it('should set #loopFunctions with passed in object', function () {
