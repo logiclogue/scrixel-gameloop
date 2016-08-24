@@ -1,6 +1,6 @@
 function LoopFunctions() {
-    this.drawFunction = this._emptyFunction;
-    this.updateFunction = this._emptyFunction;
+    this.draw = this._emptyFunction;
+    this.update = this._emptyFunction;
 }
 
 (function (proto_) {

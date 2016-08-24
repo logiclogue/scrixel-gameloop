@@ -8,12 +8,12 @@ describe('LoopFunctions', function () {
     describe('#constructor()', function () {
         loop = new LoopFunctions();
 
-        it('should set #drawFunction to an empty function', function () {
-            assert.equal(typeof loop.drawFunction, 'function');
+        it('should set #draw to an empty function', function () {
+            assert.equal(typeof loop.draw, 'function');
         });
 
-        it('should set #updateFunction to an empty function', function () {
-            assert.equal(typeof loop.updateFunction, 'function');
+        it('should set #update to an empty function', function () {
+            assert.equal(typeof loop.update, 'function');
         });
     });
 });
