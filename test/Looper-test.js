@@ -8,11 +8,15 @@ describe('Looper', function () {
     var looper = new Looper(loopFunctions);
 
     loopFunctions.draw = function () {
-        return 'start';
+        console.log('draw');
+
+        return 'draw';
     };
     
     loopFunctions.update = function () {
-        return 'stop';
+        console.log('update');
+
+        return 'update';
     };
 
     describe('#constructor(LoopFunctions)', function () {
