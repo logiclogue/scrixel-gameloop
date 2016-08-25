@@ -15,7 +15,10 @@
     "loop",
     "engine",
     "animation",
-    "loop"
+    "looper",
+    "scrixel",
+    "ludum",
+    "dare"
   ],
   "author": "Jordan Lord",
   "license": "GPL-3.0",
